@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Guess - Adivina la Película</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Vista de Inicio -->
+    <div id="start-view" class="view">
+      <div class="start-content">
+        <h1 class="title">🎬 Movie Guess</h1>
+        <p class="subtitle">Piensa en una película y responderé preguntas para adivinarla</p>
+        <button id="start-btn" class="btn btn-primary btn-large">Comenzar Juego</button>
+      </div>
+    </div>
+
+    <!-- Vista de Juego -->
+    <div id="game-view" class="view hidden">
+      <div class="game-header">
+        <div class="progress-info">
+          <span id="question-counter">Pregunta 1 de 10</span>
+        </div>
+        <div class="progress-bar">
+          <div id="progress-fill" class="progress-fill"></div>
+        </div>
+      </div>
+      
+      <div class="question-container">
+        <p id="question-text" class="question-text">¿Es una película de acción?</p>
+      </div>
+
+      <div class="answer-buttons">
+        <button id="btn-yes" class="btn btn-answer btn-yes">
+          <span class="emoji">✓</span>
+          <span>Sí</span>
+        </button>
+        <button id="btn-no" class="btn btn-answer btn-no">
+          <span class="emoji">✗</span>
+          <span>No</span>
+        </button>
+        <button id="btn-dont-know" class="btn btn-answer btn-dont-know">
+          <span class="emoji">?</span>
+          <span>No sé</span>
+        </button>
+      </div>
+
+      <div class="skip-container">
+        <button id="guess-now-btn" class="btn btn-secondary">Adivinar Ahora</button>
+      </div>
+    </div>
+
+    <!-- Vista de Resultados -->
+    <div id="results-view" class="view hidden">
+      <div class="results-header">
+        <h2 class="results-title">🎯 Estas podrían ser:</h2>
+        <p class="results-subtitle">Basado en tus respuestas</p>
+      </div>
+      
+      <div id="results-list" class="results-list">
+        <!-- Los resultados se insertan aquí dinámicamente -->
+      </div>
+
+      <div class="results-footer">
+        <button id="play-again-btn" class="btn btn-primary btn-large">Jugar de Nuevo</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "¿Es una película de acción o aventura?",
+      "attribute": "genres",
+      "attributeValue": "Action"
+    },
+    {
+      "id": 2,
+      "text": "¿Es una película de ciencia ficción?",
+      "attribute": "genres",
+      "attributeValue": "Sci-Fi"
+    },
+    {
+      "id": 3,
+      "text": "¿Es una comedia?",
+      "attribute": "genres",
+      "attributeValue": "Comedy"
+    },
+    {
+      "id": 4,
+      "text": "¿Es una película de terror o horror?",
+      "attribute": "genres",
+      "attributeValue": "Horror"
+    },
+    {
+      "id": 5,
+      "text": "¿Es un drama?",
+      "attribute": "genres",
+      "attributeValue": "Drama"
+    },
+    {
+      "id": 6,
+      "text": "¿Es una película romantica?",
+      "attribute": "genres",
+      "attributeValue": "Romance"
+    },
+    {
+      "id": 7,
+      "text": "¿Es una película de犯罪 (crimen) o mafia?",
+      "attribute": "genres",
+      "attributeValue": "Crime"
+    },
+    {
+      "id": 8,
+      "text": "¿Es una animación?",
+      "attribute": "genres",
+      "attributeValue": "Animation"
+    },
+    {
+      "id": 9,
+      "text": "¿Es una película de los años 70?",
+      "attribute": "decade",
+      "attributeValue": "1970s"
+    },
+    {
+      "id": 10,
+      "text": "¿Es una película de los años 80?",
+      "attribute": "decade",
+      "attributeValue": "1980s"
+    },
+    {
+      "id": 11,
+      "text": "¿Es una película de los años 90?",
+      "attribute": "decade",
+      "attributeValue": "1990s"
+    },
+    {
+      "id": 12,
+      "text": "¿Es del año 2000 en adelante?",
+      "attribute": "decade",
+      "attributeValue": "2000s"
+    },
+    {
+      "id": 13,
+      "text": "¿Es del 2010 en adelante?",
+      "attribute": "decade",
+      "attributeValue": "2010s"
+    },
+    {
+      "id": 14,
+      "text": "¿Tiene a Leonardo DiCaprio?",
+      "attribute": "cast",
+      "attributeValue": "Leonardo DiCaprio"
+    },
+    {
+      "id": 15,
+      "text": "¿Tiene a Tom Hanks?",
+      "attribute": "cast",
+      "attributeValue": "Tom Hanks"
+    },
+    {
+      "id": 16,
+      "text": "¿Tiene a Brad Pitt?",
+      "attribute": "cast",
+      "attributeValue": "Brad Pitt"
+    },
+    {
+      "id": 17,
+      "text": "¿La dirigió Steven Spielberg?",
+      "attribute": "director",
+      "attributeValue": "Steven Spielberg"
+    },
+    {
+      "id": 18,
+      "text": "¿La dirigió Christopher Nolan?",
+      "attribute": "director",
+      "attributeValue": "Christopher Nolan"
+    },
+    {
+      "id": 19,
+      "text": "¿Es una película sobre extraterrestres o alienígenas?",
+      "attribute": "keywords",
+      "attributeValue": "alien"
+    },
+    {
+      "id": 20,
+      "text": "¿Es una película sobre viajes en el tiempo?",
+      "attribute": "keywords",
+      "attributeValue": "time-travel"
+    },
+    {
+      "id": 21,
+      "text": "¿Es una película con robots o inteligencia artificial?",
+      "attribute": "keywords",
+      "attributeValue": "robot"
+    },
+    {
+      "id": 22,
+      "text": "¿Tiene que ver con boxeo o deportes de combate?",
+      "attribute": "keywords",
+      "attributeValue": "boxing"
+    },
+    {
+      "id": 23,
+      "text": "¿Es una película de superheroes?",
+      "attribute": "keywords",
+      "attributeValue": "superhero"
+    },
+    {
+      "id": 24,
+      "text": "¿La película tiene un final ambiguo o misterioso?",
+      "attribute": "themes",
+      "attributeValue": "ambiguity"
+    },
+    {
+      "id": 25,
+      "text": "¿La historia trata sobre el amor?",
+      "attribute": "themes",
+      "attributeValue": "love"
+    },
+    {
+      "id": 26,
+      "text": "¿Es una historia sobre amistad?",
+      "attribute": "themes",
+      "attributeValue": "friendship"
+    },
+    {
+      "id": 27,
+      "text": "¿La película trata sobre redención o cambio positivo?",
+      "attribute": "themes",
+      "attributeValue": "redemption"
+    },
+    {
+      "id": 28,
+      "text": "¿Es una historia sobre valentía o un héroe?",
+      "attribute": "themes",
+      "attributeValue": "hero"
+    }
+  ]
+}
